@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>TWS - KhongD</title>
+
+    <!-- 
+        DES322 Class-08
+        StudentID: 6222770933
+        Student Name: Leeyakorn Cheewakriengkrai
+        TA Group: G2 TA Apiwat Fakthong
+        Digital Business: An online store for selling surfskates
+        Created Date: 14-Oct-2021
+    -->
+    <style>
+        .access-point1 {border: 1px solid black; height: 100px; text-align: center; background-color: grey;}
+        .access-point2 {border: 1px solid black; height: 100px; text-align: center; background-color: lemonchiffon};
+        
+    </style>
+
+</head>
+<body>
+    <!-- <div name='site-header' class=""> 
+        
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand">Navbar</a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        </nav>
+        
+    </div> -->
+    
+        <!--Header -->
+    <div name="site-header" class="" style="background-color:  black; color: black">_ 
+
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-md-7" style=" color: black">___
+                    <a class="navbar-brand" href="#">
+                        <img src="images/image00.png" width="80" height="80" alt="">
+                    </a>
+                    <a class="navbar-brand" href="site.html" style="font-size: 32pt;text-shadow:2px 2px 10px skyblue; color: white">TWS - KhongD</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="#"></a>
+                            <a class="nav-link" href="#"></a>
+                            <a class="nav-link" href="#"></a>
+                            <a class="nav-link" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="col-md-2">
+                </div>
+                
+                <div class="col-md-1">
+                    <a class="navbar-brand" href="Homepage.html" style="color: black">_
+                        <img src="images/image12.png" width="50" height="50" alt="">
+                    </a>
+                    <a class="navbar-brand" href="Homepage.html" style="color: white">1 in bag</a>
+                </div>
+                <div class="col-md-1">
+                    <a class="navbar-brand" href="SignIn.html" style="color: black">
+                        <img src="images/image13.png" width="50" height="50" alt="">
+                    </a>
+                    <a class="navbar-brand" href="SignIn.html" style="color: white">Sign in</a>
+                </div>
+            </div>
+        </div> 
+        <div class="container-fluid">
+            <div class="row align-items-start">
+                <div class="col-md-9">
+                    <div class="btn-group">
+                        <a href="Homepage.html"
+                        <button type="button" class="btn btn-sm btn-outline-secondary" style="height: 5px; width:100px; font-size: larger; color: white; background-color: black ; border: 2pt white">Home</button>
+                        </a>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" style="height: 5px;width:100px; font-size: larger; color: white; background-color: black ; border: 2pt white">TWS</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" style="height: 5px;width:100px; font-size: larger; color: white; background-color: black ; border: 2pt white">Ear tips</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" style="height: 5px;width:100px; font-size: larger; color: white; background-color: black ; border: 2pt white">Cases</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" style="height: 5px;width:100px; font-size: larger; color: white; background-color: black ; border: 2pt white">About us</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Type here" aria-label="Type here">
+                        <button class="btn btn-primary my-2" type="submit" style="font-size: larger; color: white; background-color: black; border-color:  white">Go</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div name='site-nav' class="">
+        <div class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- col-md-6  -->
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="/images/image01.png" alt="First slide" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="/images/image02.png" alt="Second slide" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="/images/image03.png" alt="Third slide" />
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-md-6">
+                        <!-- col-md-6 -->
+                        <div class="container">
+                            <h1 class="jumbotron-heading text-danger">11.11 KhongD Mega Sale</h1>
+                            <p class="lead text-muted">11.11 KhongD Mega Sale all true wireless stereo 
+                                discount up to 30%!!!
+                            </p>
+                            <p>
+                                <a href="#" class="btn default" style="font-size: larger; color: black; background-color: white;border-color: black; ">Coming soon</a>
+                                
+                            </p>
+                        </div>
+                        
+                    
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div name="site-cate" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="jumbotron-heading text-dark" style="text-align: center;">Best TWS 2021</h1>
+                    <p align="center"><iframe width="840" height="472" src="https://www.youtube.com/embed/6PB3P4ci78g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </p>
+
+                    <p class="card-text">These are the Top 6 wireless earbuds you can get in 2021. We comparing the sound quality, the call quality, the active noise cancelling, the battery life, the design, the comfort and the functionality.</p>
+                </div>
+            </div>
+                <div class="col-md-12">
+                    <div class="py-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <h3 class="jumbotron-heading text-danger">New Arrival!</h3>
+                                    <img
+                                        class="card-img-top"
+                                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]"
+                                        style="height: 225px; width: 100%; display: block;"
+                                        src="/images/image04.png"
+                                        data-holder-rendered="true"
+                                    />
+                                    <div class="card-body">
+                                        <p class="card-text">Motif A.N.C., the true wireless headphones from Marshall that amplify your audio while shutting down the noise around you with active noise cancellation...</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm 
+                                                btn-outline-secondary">Add to bag</button>
+                                                <a href="NewArrival.html"
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">More details</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <h3 class="jumbotron-heading text-danger">11.11 KhongD Festival</h3>
+                                    <img
+                                        class="card-img-top"
+                                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]"
+                                        style="height: 225px; width: 100%; display: block;"
+                                        src="/images/image05.png"
+                                        data-holder-rendered="true"
+                                    />
+                                    <div class="card-body">
+                                        <p class="card-text">11.11 KhongD Festival discount up to 30% !!!</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">More details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <h3 class="jumbotron-heading text-success">Discount 5%!!</h3>
+                                    <img
+                                        class="card-img-top"
+                                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]"
+                                        style="height: 225px; width: 100%; display: block;"
+                                        src="/images/image06.png"
+                                        data-holder-rendered="true"
+                                    />
+                                    <div class="card-body">
+                                        <p class="card-text">First time order will discount5%!!</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">More details</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <h1 class="jumbotron-heading text-dark">Best Selling</h1>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card mb-4 box-shadow">
+                                    
+                                    <img
+                                        class="card-img-top"
+                                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]"
+                                        style="height: 225px; width: 100%; display: block;"
+                                        src="/images/image08.png"
+                                        data-holder-rendered="true"
+                                    />
+                                    <div class="card-body">
+                                        <p class="card-text">PLANTRONICS BACKBEAT PRO 5100 4MIC NOISE CANCELLING TRUE WIRELESS</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm 
+                                                btn-outline-secondary">Add to bag</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">More details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card mb-4 box-shadow">
+                                    
+                                    <img
+                                        class="card-img-top"
+                                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]"
+                                        style="height: 225px; width: 100%; display: block;"
+                                        src="/images/image09.png"
+                                        data-holder-rendered="true"
+                                    />
+                                    <div class="card-body">
+                                        <p class="card-text">KLIPSCH T5 II TRUE WIRELESS SPORT MCLAREN EDITION</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm 
+                                                btn-outline-secondary">Add to bag</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">More details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="col-md-3">
+                                <div class="card mb-4 box-shadow">
+                                    
+                                    <img
+                                        class="card-img-top"
+                                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]"
+                                        style="height: 225px; width: 100%; display: block;"
+                                        src="/images/image10.png"
+                                        data-holder-rendered="true"
+                                    />
+                                    <div class="card-body">
+                                        <p class="card-text">RAZER HAMMERHEAD TRUE WIRELESS PRO</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm 
+                                                btn-outline-secondary">Add to bag</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">More details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card mb-4 box-shadow">
+                                    
+                                    <img
+                                        class="card-img-top"
+                                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                        alt="Thumbnail [100%x225]"
+                                        style="height: 225px; width: 100%; display: block;"
+                                        src="/images/image11.png"
+                                        data-holder-rendered="true"
+                                    />
+                                    <div class="card-body">
+                                        <p class="card-text">B&O BEOPLAY E8 SPORT</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm 
+                                                btn-outline-secondary">Add to bag</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">More details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div name="site-footer" style="background-color:black; height: 200px;">
+        <!-- Footer -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h1 style="font-size: 28pt;text-shadow:2px 2px 10px skyblue; color: white">TWS - KhongD</h1>
+                    <h3 style="font-size: 12pt; color: white">TWS online store TWSs/cases/eartips and more </h3>
+                    <h3 style="font-size: 12pt; color: white">TWS - KhongD "Genuine and Good Quality" </h3>
+                    <div class="row">
+                        <div class="col-md-1" style="font-size: 20pt; color: white"> 
+                            <img src="images/image14.png" width="35" height="35" alt="">
+                        </div>
+                        <div class="col-md-2" style="font-size: 20pt; color: white"> 
+                        Address    
+                        </div>
+                    </div>
+                    <h3 style="font-size: 12pt; color: white">263/3 Moo 3 Theparak Road, Muang, Samut Prakan 10270 Thailand </h3>
+                </div>
+                <div class="col-md-3">
+                
+                </div>
+                <div class="col-md-4">
+                    <h1 style="font-size: 28pt; color: white">Contact us</h1>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="images/line.png" width="40" height="40" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img src="images/fb.png" width="40" height="40" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img src="images/ig.png" width="40" height="40" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img src="images/yt.png" width="40" height="40" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img src="images/mail.png" width="40" height="40" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
